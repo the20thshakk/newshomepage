@@ -1,0 +1,282 @@
+body{
+    background-color: white;
+    padding: 0px 200px 0px 200px;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar{
+    float: right;
+    margin-top: -50px;
+    font-size: 14px;
+}
+
+ul{
+    display: flex;
+    gap: 0.8cm;
+}
+
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    opacity: 80%;
+}
+
+a:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+
+
+.main{
+    height: auto;
+    width: 100%;
+}
+
+.main img{
+    height: 40%;
+    width: 65%;
+    padding-top: 40px;
+}
+
+.rightbox{
+    height: 410px;
+    width: 300px;
+    background-color: hsl(240, 100%, 5%);
+    position: absolute;
+    margin-top: -260px;
+    left: 860px;
+}
+
+.rightbox .box1 h1{
+    color: hsl(35, 77%, 62%);
+    margin: 30px 20px 0px 20px;
+    font-size: 32px;
+}
+
+.rightbox .box1 h2:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.rightbox .box1 h2{
+    color: white;
+    margin: 20px 20px 0px 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.rightbox .box1 p{
+    color: rgba(255, 255, 255, 0.63);
+    margin: 10px 20px 0px 20px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 18px;
+}
+
+.rightbox .line{
+    border: 1px;
+    background-color: rgba(255, 255, 255, 0.37);
+    width: 260px;
+    height: 1px;
+    margin: 25px 20px 0px 20px;
+}
+
+.rightbox .box2 h2{
+    color: white;
+    margin: 20px 20px 0px 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.rightbox .box2 h2:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.rightbox .box2 p{
+    color: rgba(255, 255, 255, 0.63);
+    margin: 10px 20px 0px 20px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 18px;
+}
+
+.rightbox .box3 h2{
+    color: white;
+    margin: 20px 20px 0px 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.rightbox .box3 h2:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.rightbox .box3 p{
+    color: rgba(255, 255, 255, 0.63);
+    margin: 10px 20px 0px 20px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 18px;
+}
+
+
+
+.heading{
+    font-weight: 800;
+    /* font-size: 18px; */
+}
+
+.headingtext{
+    position: absolute;
+    left: 520px;
+    top: 360px;
+}
+
+.headingtext p{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.932);
+    line-height: 18px;
+}
+
+button{
+    height: 35px;
+    width: 130px;
+    background-color: hsl(5, 85%, 63%);
+    border-color: hsl(5, 85%, 63%);
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+
+/* bottom image part */
+
+.grid100{
+    display: flex;
+    padding-top: 20px;
+    gap: 2.9cm;
+}
+
+.grid100 .grida img{
+    height: auto;
+    width: 35%;
+}
+
+.grid100 .grida .gridamoveable{
+    position: absolute;
+    left: 300px;
+    top: 505px;
+}
+
+.grid100 .grida h1{
+    font-size: 22px;
+    color: rgb(202, 202, 202);
+    position: absolute;
+    top: 7px;
+}
+
+.grid100 .grida h2{
+    font-size: 14px;
+    position: absolute;
+    top: 43px;
+}
+
+.grid100 .grida h2:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.grid100 .grida p{
+    font-size: 12px;
+    line-height: 20px;
+    opacity: 70%;
+    position: relative;
+    top: 65px;
+}
+
+
+.grid100 .gridb img{
+    height: auto;
+    width: 35%;
+}
+
+.grid100 .gridb .gridamoveable_b{
+    position: absolute;
+    left: 615px;
+    top: 505px;
+}
+
+.grid100 .gridb h1{
+    font-size: 22px;
+    color: rgb(202, 202, 202);
+    position: absolute;
+    top: 7px;
+}
+
+.grid100 .gridb h2{
+    font-size: 14px;
+    position: relative;
+    top: 43px;
+}
+
+.grid100 .gridb h2:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.grid100 .gridb p{
+    font-size: 12px;
+    line-height: 20px;
+    opacity: 70%;
+    position: relative;
+    top: 40px;
+}
+
+
+
+.grid100 .gridc img{
+    height: auto;
+    width: 35%;
+}
+
+.grid100 .gridc img{
+    position: relative;
+    left: 32px;
+}
+
+.grid100 .gridc .gridamoveable_c{
+    position: absolute;
+    left: 955px;
+    top: 505px;
+} 
+
+.grid100 .gridc h1{
+    font-size: 22px;
+    color: rgb(202, 202, 202);
+    position: absolute;
+    top: 7px;
+}
+
+.grid100 .gridc h2{
+    font-size: 14px;
+    position: relative;
+    top: 43px;
+}
+
+.grid100 .gridc h2:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.grid100 .gridc p{
+    font-size: 12px;
+    line-height: 20px;
+    opacity: 70%;
+    position: relative;
+    top: 40px;
+}
